@@ -27,12 +27,11 @@ class School {
 }
 // Create instances of three individual schools.
 let schoolA = new School("WNA", "high school", 1000);
-
-
+let schoolB = new School("MMI", "middle school", 500);
+let schoolC = new School("SRDS", "preK-12", 300);
 
 // Confirm that the class works by printing out the name and size of the third school.
-
-
+console.log("The third school's name is "+schoolC.name+". It's size is "+schoolC.size)
 
 // Level 3:
 // Create a class called House that has four attributes: an address, a size, a price, and a number of bedrooms.
@@ -49,11 +48,12 @@ let schoolA = new School("WNA", "high school", 1000);
 
 // Level 4: (Stretch)
 // Put your three students in an array called myStudents, your houses in an array for houses, and your schools in an array for schools.
-
-
+let students = [student1, student2, student3];
 
 // Iterate over the student array, printing out "_____ is in grade __." For each of the students.
-
+for (let i = 0; i < students.length; i++){
+  console.log(students[i].name+" is in grade "+students[i].grade)
+}
 
 
 // Iterate over the houses array and print out a description for each one. Do the same for your schools array.
@@ -65,4 +65,5 @@ let schoolA = new School("WNA", "high school", 1000);
 
 
 
-// Write some code that compares a student and a house, and determines whether or not the student can afford to buy the house.
+// Write some code that compares a student and a house, 
+// and determines whether or not the student can afford to buy the house.
