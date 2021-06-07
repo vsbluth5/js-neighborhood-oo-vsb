@@ -1,32 +1,22 @@
 // Level 1:
 // Create a class called Student that has two attributes: a name, and a grade.
-class Student {
-  constructor (n, g){
-    this.name = n;
-    this.grade = g;
-  }
-}
+
+
 
 // Now create instances of three different students (student1, student2, and student3).
 
-let student1 = new Student("Anne", 3);
-let student2 = new Student("Bob", 10);
-let student3 = new Student("Calvin", 7);
+
 
 // Confirm that the class works by printing out the first student's name.
-console.log("The first student's name is "+student1.name)
+
+
 
 // Level 2:
 // Create a class called School that has three attributes: a name, a type, and a size.
-class School {
-  constructor(n, t, s){
-    this.name = n;
-    this.type = t;
-    this.size = s;
-  }  
-}
+
+
+
 // Create instances of three individual schools.
-let schoolA = new School("WNA", "high school", 1000);
 
 
 
